@@ -1,0 +1,56 @@
+.card-frame {
+    width: 280px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.img-holder {
+    width: 260px;
+    height: 170px;
+    background-color: var(--blue);
+    position: relative;
+    overflow-y: hidden;
+    margin-top: -40px;
+    border-radius: 5px;
+}
+
+.card-img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.coral {
+    background-color: var(--coral);
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 22px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}

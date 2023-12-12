@@ -18,6 +18,11 @@ h1, h2, h3 {
     font-family: "Frank Ruhl Libre";
 }
 
+h1 {
+    font-size: 45px;
+    line-height: 50px;
+}
+
 p, button {
     font-family: "Fira Sans";
 }
