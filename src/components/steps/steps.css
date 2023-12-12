@@ -1,0 +1,60 @@
+.steps-container {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.steps {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    padding: 0px 120px;
+}
+
+.steps h1 {
+    text-align: left;
+    font-size: 40px;
+}
+
+.steps :nth-child(1) {
+    background-color: var(--blue);
+}
+
+.steps :nth-child(3) {
+    background-color: #ebebeb;
+}
+.steps :nth-child(5) {
+    background-color: var(--coral);
+}
+
+.steps article {
+    width: 28%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+}
+
+.steps article h2 {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    background-color: transparent !important;
+    font-size: 30px;
+    opacity: 0.4;
+}
+
+.steps article p {
+    width: 180px;
+    text-align: center;
+}

@@ -5,7 +5,8 @@ import family from '../../assets/img/family.png'
 export const Home = () => {
   return (
     <div className="home" id="home">
-      <section>
+       
+        <section>
         <h1>We've got you Covered.</h1>
         <p className='home-text'>
           Together we keep each other safe at home or at work. By paying a tiny
