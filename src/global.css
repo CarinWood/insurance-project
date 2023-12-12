@@ -18,7 +18,7 @@ h1, h2, h3 {
     font-family: "Frank Ruhl Libre";
 }
 
-p {
+p, button {
     font-family: "Fira Sans";
 }
 
