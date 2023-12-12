@@ -1,10 +1,9 @@
-import { Footer } from '../footer/Footer'
 import './steps.css'
 
 
 export const Steps = () => {
   return (  
-    <div className='steps-container'>
+    <div className='container'>
     <section className='steps'>
         <article>
             <h1>How</h1>
@@ -33,7 +32,6 @@ export const Steps = () => {
         </article>
      
     </section>
-    <Footer/>
     </div>
   )
 }

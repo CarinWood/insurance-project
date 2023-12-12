@@ -4,6 +4,7 @@ import { Home } from './components/home/Home'
 import { Nav } from './components/navbar/Nav'
 import { OurOffer } from './components/ourOffer/OurOffer'
 import { Steps } from './components/steps/Steps'
+import { Footer } from './components/footer/Footer'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
       <OurOffer/>
       <About/>
       <Steps/>
+      <Footer/>
     </div>
   )
 }
