@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Frank Ruhl Libre";
+    src: url('./assets/fonts/FrankRuhlLibre-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('./assets/fonts/FiraSans-Regular.ttf');
+}
+
+h1, h2, h3 {
+    font-family: "Frank Ruhl Libre";
+}
+
+p {
+    font-family: "Fira Sans";
+}
+
+/* global colors */
+
+:root {
+    --coral: #F17949;
+    --orange: #FAB131;
+    --blue: #C7DDEA;
+    --gray: #A9A19E;
+}
