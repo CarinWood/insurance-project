@@ -4,7 +4,7 @@ import family from '../../assets/img/family.png'
 
 export const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <section>
         <h1>We've got you Covered.</h1>
         <p className='home-text'>
