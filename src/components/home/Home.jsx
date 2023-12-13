@@ -2,6 +2,7 @@
 import './home.css'
 import family from '../../assets/img/family.png'
 import { Nav } from '../navbar/Nav'
+import { Link } from 'react-scroll'
 
 export const Home = () => {
   return (
@@ -22,7 +23,7 @@ export const Home = () => {
       <aside>
         <article className='learn-more'>
             <p>What do we have to offer?</p>
-            <h2>Learn more</h2>
+            <Link to="steps" spy={true} smooth={true} duration={500}><h2>Learn more</h2></Link>
         </article>
         <article className='join'>
             <p>What are you waiting for?</p>

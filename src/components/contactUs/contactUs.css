@@ -59,7 +59,7 @@ label {
   }
 
 .msg-btn {
-   
+    cursor: pointer;
     color: black;
     background-color: white;
     border: none;

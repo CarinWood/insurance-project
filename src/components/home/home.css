@@ -45,6 +45,7 @@
 
 .join-btn {
     color: black;
+    cursor: pointer;
     background-color: white;
     border: none;
     padding: 17px 20px;
@@ -95,5 +96,10 @@
     color: white;
     font-size: 38px;
     margin-top: 10px;
-    cursor: pointer
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+
+.learn-more h2:hover, .join h2:hover {
+    transform: scale(1.2)
+} 
