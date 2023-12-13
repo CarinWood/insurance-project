@@ -13,6 +13,7 @@ export const Map = () => {
         <p>2219 Griffin Street</p>
         <p>San Francisco</p>
       </div>
+      <p className="credits"> &copy; 2023 This site is created by <a href="https://carinwood-eng-cv.netlify.app/" target="_blank" rel="noreferrer">Carin Wood</a></p>
     </section>
   );
 };

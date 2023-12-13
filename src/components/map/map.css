@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    border: 1px solid black;
+    background-color: #777574;
 }
 
 iframe {
@@ -16,8 +16,8 @@ iframe {
 
 .sign {
     position: absolute;
-    left: 10%;
-    top: 10%;
+    left: 5%;
+    top: 23%;
     background-color: var(--orange);
     color: white;
     width: 300px;
@@ -33,4 +33,15 @@ iframe {
 .sign p {
     width: 100%;
     text-align: left;
+}
+
+.credits {
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+.credits a {
+    color: white;
 }
