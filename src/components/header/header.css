@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: 89vh;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.man-baby-pic {
+    width: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
