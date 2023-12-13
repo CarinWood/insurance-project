@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
-    height: 89vh;
+    padding-bottom: 11vh;
+    height: 100vh;
+    position: relative;
 }
 
 .home section {

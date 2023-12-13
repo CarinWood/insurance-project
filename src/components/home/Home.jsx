@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import './home.css'
 import family from '../../assets/img/family.png'
+import { Nav } from '../navbar/Nav'
 
 export const Home = () => {
   return (
     <div className="home" id="home">
-       
+    <Nav/>
         <section>
         <h1>We've got you Covered.</h1>
         <p className='home-text'>
