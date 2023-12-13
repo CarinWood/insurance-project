@@ -21,3 +21,60 @@
     align-items: center;
 
 }
+
+label {
+    width: 290px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 290px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 8px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+#message {
+    width: 290px;
+    border: none;
+    border-radius: 5px;
+    height: 130px;
+    resize: none;
+    outline:none;
+    padding: 8px;
+    font-family: "Fira Sans";
+}
+
+#message::placeholder {
+    color: black;
+    font-size: 15px;
+    opacity: 1;
+  }
+
+.msg-btn {
+   
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 11px 14px;
+    font-size: 12px;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    width: 130px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-btn-area {
+    width: 290px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+}

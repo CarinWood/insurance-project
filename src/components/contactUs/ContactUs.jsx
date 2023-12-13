@@ -13,7 +13,9 @@ export const ContactUs = () => {
 
             <label htmlFor='message'>Your message</label>
             <textarea type='text' id="message" name="message" placeholder='Dear insurance company ...'/>
-            <button type="submit">Send message</button>
+            <div className='form-btn-area'>
+            <button type="submit" className='msg-btn'>Send message</button>
+            </div>
         </form>
     </div>
   )
