@@ -13,6 +13,7 @@ footer {
 
 .icon {
     font-size: 25px;
+    cursor: pointer;
 }
 
 footer a {
@@ -20,4 +21,5 @@ footer a {
     color: black;
     font-size: 16px;
     margin-top: -6px;
+    cursor: pointer;
 }
