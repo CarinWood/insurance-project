@@ -23,7 +23,7 @@ h1 {
     line-height: 50px;
 }
 
-p, button, footer {
+p, button, footer, label {
     font-family: "Fira Sans";
 }
 
