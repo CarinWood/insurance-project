@@ -13,6 +13,7 @@ nav {
 
 .nav-item {
     cursor: pointer;
+    font-family: "Fira Sans";
 }
 
 nav a {
