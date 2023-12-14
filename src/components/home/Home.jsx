@@ -3,10 +3,14 @@ import './home.css'
 import family from '../../assets/img/family.png'
 import { Nav } from '../navbar/Nav'
 import { Link } from 'react-scroll'
+import { RxHamburgerMenu } from "react-icons/rx";
+import { Menu } from '../menu/Menu';
 
 export const Home = () => {
   return (
     <div className="home" id="home">
+    <RxHamburgerMenu className='hamburger-menu'/>
+    <Menu/>
     <Nav/>
         <section>
         <h1>We've got you Covered.</h1>

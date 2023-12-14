@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer>
         <Link to="home" spy={true} smooth={true} duration={500} ><RiArrowUpSFill className='icon'/></Link>
-        <Link to="home" spy={true} smooth={true} duration={500} ><a href="home">Take me up again!</a></Link>
+        <Link to="home" spy={true} smooth={true} duration={500} >Take me up again!</Link>
     </footer>
   )
 }

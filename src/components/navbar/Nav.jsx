@@ -7,10 +7,10 @@ export const Nav = () => {
  
   return (
     <nav>
-        <a href="/"><p className='nav-item'>Home</p></a>
-        <a href="#"><p className='nav-item'>Our offer</p></a>
-        <a href="#"><p className='nav-item'>Why us</p></a>
-      <a href="#"><Link to="/contact" className='nav-item'>Contact</Link></a>
+        <a href="/" className='nav-item'>Home</a>
+        <a href="#" className='nav-item'>Our offer</a>
+        <a href="#" className='nav-item'>Why us</a>
+        <Link to="/contact" className='nav-item'>Contact</Link>
     </nav>
   )
 }
