@@ -9,7 +9,7 @@ export const OurOffer = () => {
     <section className="offer">
       <article className="box-1">
         <h1 className="offer-heading">Your personal financial safety net online.</h1>
-        <button className="join-btn">JOIN NOW</button>
+        <button className="join-btn offer-btn">JOIN NOW</button>
       </article>
       <aside className="box-2">
         <p>

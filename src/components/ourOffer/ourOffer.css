@@ -29,7 +29,6 @@
     text-align: left;
 }
 
-
 .cards {
     position: absolute;
     bottom: -18%;
@@ -49,14 +48,19 @@
         flex-direction: column;
         justify-content: flex-start;
         padding: 0px 0px;
-        padding-left: 20px;
+    }
+
+    .offer-btn {
+        visibility: hidden;
+        height: 0px;
     }
 
     .offer-heading {
         margin-top: 40px;
         font-size: 45px;
         width: 380px;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+        margin-left: 20px;
      
     }
 
@@ -70,10 +74,22 @@
     }
 
     .box-2 p {
-        width: 98%;
+        width: 90%;
         font-size: 15px;
-        line-height: 28px;
+        line-height: 26px;
         text-align: left;
-        margin-top: 30px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+  
+    .cards {
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 80px;
+        background-color: var(--gray);
     }
 }

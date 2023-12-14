@@ -54,3 +54,33 @@
     line-height: 20px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 888px) {
+    .card-frame {
+        width: 270px;
+        height: 320px;
+        margin-bottom: 50px;
+    }
+
+    .img-holder {
+        width: 230px;
+        height: 140px;
+        margin-top: -30px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .card-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 230px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+}
