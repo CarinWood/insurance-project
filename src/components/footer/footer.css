@@ -23,3 +23,23 @@ footer a {
     margin-top: -6px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 888px) {
+    footer {
+        height: 5vh;
+    }
+
+    .icon {
+        font-size: 25px;
+        cursor: pointer;
+        margin-top: 8px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        margin-top: -12px;
+        cursor: pointer;
+    }
+}

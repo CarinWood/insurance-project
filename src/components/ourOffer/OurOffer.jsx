@@ -6,7 +6,7 @@ import adult from '../../assets/img/adult.png'
 
 export const OurOffer = () => {
   return (
-    <section className="offer">
+    <section className="offer" id="offer">
       <article className="box-1">
         <h1 className="offer-heading">Your personal financial safety net online.</h1>
         <button className="join-btn offer-btn">JOIN NOW</button>

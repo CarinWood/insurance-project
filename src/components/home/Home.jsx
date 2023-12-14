@@ -21,7 +21,7 @@ export const Home = () => {
         <RxHamburgerMenu className={toggleMenu ?'hamburger-menu white': 'hamburger-menu'} onClick={()=> foldMenu()}/>
       </div>
  
-    <Menu toggleMenu={toggleMenu}/>
+    <Menu toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
  
     <Nav/>
         <section>
