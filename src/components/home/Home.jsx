@@ -5,12 +5,24 @@ import { Nav } from '../navbar/Nav'
 import { Link } from 'react-scroll'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Menu } from '../menu/Menu';
+import { useState } from 'react';
 
 export const Home = () => {
+  const [toggleMenu, setToggleMenu] = useState(false)
+
+  const foldMenu = () => {
+      setToggleMenu(!toggleMenu)
+      console.log(toggleMenu)
+  }
+
   return (
     <div className="home" id="home">
-    <RxHamburgerMenu className='hamburger-menu'/>
-    <Menu/>
+      <div  className="hamburger-wrapper">
+        <RxHamburgerMenu className={toggleMenu ?'hamburger-menu white': 'hamburger-menu'} onClick={()=> foldMenu()}/>
+      </div>
+ 
+    <Menu toggleMenu={toggleMenu}/>
+ 
     <Nav/>
         <section>
         <h1>We've got you Covered.</h1>
