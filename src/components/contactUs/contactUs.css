@@ -79,3 +79,65 @@ label {
     align-items: center;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 888px) {
+    .contact-us {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 83vh;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contact-heading {
+        width: 350px;
+    }
+
+    .header-box, .form-box {
+        width: 100vw;
+        height: auto;
+    }
+    
+    .form-box {
+        margin-top: 30px;
+    }
+
+    label {
+        width: 320px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    #email {
+        width: 320px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    #message {
+        width: 320px;
+        height: 140px;
+        font-size: 18px;
+    }
+    
+    #message::placeholder {
+        font-size: 18px;
+
+      }
+      
+    .msg-btn {
+        padding: 14px 17px;
+        font-size: 14px;
+        width: 140px;
+    }
+
+    
+    .form-btn-area {
+    width: 320px;
+    }
+
+    
+}
