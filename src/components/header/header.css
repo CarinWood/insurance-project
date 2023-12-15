@@ -14,3 +14,21 @@ header {
     bottom: 0;
     right: 10%;
 }
+
+@media screen and (max-width: 888px) {
+    header {
+        height: 45vh;
+        justify-content: flex-start;
+    }
+
+    .man-baby-pic {
+        width: 220px;
+        right: 1%;
+ 
+    }
+
+    .header-text {
+        width: 200px;
+        margin-left: 20px;
+    }
+}
