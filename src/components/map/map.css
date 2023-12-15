@@ -45,3 +45,20 @@ iframe {
 .credits a {
     color: white;
 }
+
+
+@media screen and (max-width: 888px) {
+    .sign {
+        position: absolute;
+        left: 50%;
+        top: -10%;
+        margin-left: -150px;
+    }
+
+    .map-container {
+        width: 100%;
+        height: 63vh;
+        position: relative;
+        background-color: #777574;
+    }
+}
