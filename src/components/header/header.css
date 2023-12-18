@@ -17,7 +17,7 @@ header {
 
 @media screen and (max-width: 888px) {
     header {
-        height: 60  vh;
+        height: 50vh;
         justify-content: flex-start;
     }
 
