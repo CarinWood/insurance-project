@@ -17,18 +17,18 @@ header {
 
 @media screen and (max-width: 888px) {
     header {
-        height: 60vh;
+        height: 55vh;
         justify-content: flex-start;
     }
 
     .man-baby-pic {
-        width: 220px;
+        width: 210px;
         right: 1%;
  
     }
 
     .header-text {
-        width: 200px;
+        width: 300px;
         margin-left: 20px;
         margin-top: -20px;
     }
