@@ -84,7 +84,7 @@ label {
     .contact-us {
         flex-direction: column;
         justify-content: flex-start;
-        height: 83vh;
+        height: 100vh;
         padding-top: 30px;
         padding-left: 0px;
         padding-right: 0px;
