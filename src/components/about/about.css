@@ -23,8 +23,8 @@
 
 @media screen and (max-width: 888px) {
     .about {
-        height: 110vh;
-        justify-content: flex-end;
+        height: 90vh;
+        justify-content: center;
         padding-bottom: 50px;
     }
 
